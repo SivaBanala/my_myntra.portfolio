@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        display: flex;
+        /* justify-content: center; */
+        /* align-items: center; */
+        max-height: 100vh;
+        width: 100%;
+        margin: 0;
+        background-color: #f0f0f0;
+    }
+    
+    .image-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 3px;
+        width: 500px;
+        /* Adjust width as needed */
+        height: 400px;
+        /* Adjust height as needed */
+    }
+    
+    .image-grid img {
+        width: 100%;
+        height: 100%;
+        /* object-fit: cover; */
+        border-radius: 4px;
+        margin-left: 30px;
+        margin-top: 40px;
+    }
+    
+    .product-info h2 {
+        margin-left: 100px;
+        margin-top: 40px;
+    }
+    
+    .product-info h3 {
+        margin-left: 100px;
+    }
+</style>
+
+<body>
+    <div>
+        <div class="image-grid">
+            <img src="./images/shirt img.jpg">
+            <img src="./images/Highlander Men Brown Solid_2.webp">
+            <img src="./images/Highlander Men Brown Solid_3.webp">
+            <img src="./images/Highlander Men Brown Solid_4.webp">
+        </div>
+    </div>
+    <div class="product-info">
+        <h2>Highlander Men Brown Solid</h2>
+        <br><br>
+        <h3>₹929</h3>
+    </div>
+</body>
+
+</html>
